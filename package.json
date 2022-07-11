@@ -1,0 +1,23 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Projeto para aprender integrar front end React e back end Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "A. Hamilton",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "express": "^4.18.1",
+    "firebase": "^9.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
