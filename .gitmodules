@@ -1,0 +1,3 @@
+[submodule "reactapi"]
+	path = reactapi
+	url = git@github.com:keyhamilton/reactapi.git
